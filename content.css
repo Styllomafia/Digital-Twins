@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin-top: 115px;
+    background-image: url('images/background2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#header {
+    position: fixed;
+    background-color: rgb(145, 238, 255);
+    top: 0;
+    right: 0;
+    height: 80px;
+    width: 100vw; 
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+#logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 40px;
+}
+#group-name {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 30px;
+    text-align: left;
+    width: 150px;
+    font-size: 30px;
+}
+#link {
+    margin-left: 90px;
+}
+#link #content{
+    color: black;
+    text-decoration: underline;
+}
+#link a{
+    font-family: italic;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(0, 0, 255);
+}
+#link a:hover {
+    text-decoration: underline;
+    background-color: grey;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+#content-wrapper {
+    width: 100vw;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    /* border: 1px solid white; */
+}
+
+.column {
+    color: white;
+    float: left;
+    margin-left: 0.75vw;
+    padding: 10px;
+    /* border: 1px solid white; */
+}
+#column1 {
+    padding-top: 60px;
+    width: 20vw;
+    height: 90vh;
+    margin-left: 0 !important;
+}
+#column2 {
+    width: 57vw;
+    height: 90vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+#column2::-webkit-scrollbar {
+    display: none;
+}
+
+#column2_content h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}   
+#column2_content h2:hover {
+        background-color: #3498db;
+        border-radius: 5px;
+        color: white;
+}
+
+#column2_content h3 {
+    font-size: 30px;
+}
+#column2_content h3:hover {
+    font-size: 30.5px;
+    text-decoration: underline;
+}
+#column2_content p {
+    text-align: justify;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#column2_content ul li {
+    margin-top: 10px;
+    font-size: 30px;
+}
+#column2_content ul li p{
+    margin-left: 10px;
+}
+#column2_content ol {
+    padding-left: 30px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#column2_content ol li {
+    margin-top: 10px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.segment{
+    margin-bottom: 50px;
+}
+#column3 {
+    width: 20vw;
+    height: 85vh;
+    color: white;
+    border-left: 1px solid white;
+}
+#column3_content {
+    width: 20vw;
+    height: 100vh;
+    color: white;
+    overflow-y: scroll;
+    padding-left: 20px;
+    padding-bottom: 200px;
+}
+#column3_content::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+}
+#column3 h3 {
+    color: #8e44ad ;
+}
+#column3 h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#column3 ul {
+    margin-left: 30px;
+}
+#column3 ul li {
+    margin-top: 20px;
+}
+
+#column3 a {
+    text-decoration: none;
+    color: white;
+
+    
+}
+#column3 a:hover{
+    color: rgb(121, 225, 121);
+    text-decoration: underline;
+}
+#column3 a:active {
+    color: blue;
+}
+
+#footer {
+    background-color: burlywood;
+    color: white;
+    width: 100vw;
+    height: 50vh;
+    border: 1px solid white;
+}
+#footer h1 {
+    font-size: 30px;
+    /* text-align: center !important; */
+}
+.segment img {
+    opacity: 0.5;
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 447px;
+    width: 637px;
+}
+.segment img:hover {
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+iframe {
+    margin-bottom: 40px;
+}
